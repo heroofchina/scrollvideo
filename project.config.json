@@ -14,7 +14,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.7.0",
-	"appid": "wxce9262a8597801af",
+	"appid": "",
 	"projectname": "scroll-video",
 	"debugOptions": {
 		"hidedInDevtools": []

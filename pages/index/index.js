@@ -19,6 +19,7 @@ Page({
         "videourl": "http://www.w3school.com.cn/example/html5/mov_bbb.mp4"
       },
      ],
+     //测试直播地址
     liveList:[
       {
         "typeid": 1,
@@ -31,7 +32,7 @@ Page({
         "videoname": "直播视频2", "videourl": 'http://pili-media.live-test.v2gogo.com/recordings/z1.v2gogo-live-test.620b18566a5d4848b6d8ca789a1120c3/1534301729.flv'
       }
     ],
-    playerType:'live',
+    playerType:'video',
     fitType:'contain'
   },
   //修改视频属性 保证只有一个video被创建

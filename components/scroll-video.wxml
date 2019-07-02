@@ -12,7 +12,7 @@
     >
     <block wx:if="{{items.video_is_player}}">
      <block wx:if="{{playerType==='video'}}">
-     <video-button-bar></video-button-bar>
+     <video-button-bar bind:buttonhandle="buttonhandle"></video-button-bar>
       <video class='video-player' 
               controls='{{false}}'
               autoplay='{{false}}'

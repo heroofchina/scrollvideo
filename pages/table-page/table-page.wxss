@@ -1,0 +1,16 @@
+/* pages/table-page/table-page.wxss */
+@import "../../wxParse/wxParse.wxss";
+.clear-border{border: none;}
+.title-tr{
+  background-color: rgb(255, 123, 0);
+  color: #fff;
+  font-size:28rpx;
+}
+.table-star-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.border-btm{
+  border-bottom: 1px solid #eee;
+}

@@ -1,0 +1,5 @@
+<!--pages/table-page/table-page.wxml-->
+<import src="../../wxParse/wxParse.wxml"/>
+<view id='article'>
+  <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+</view>
